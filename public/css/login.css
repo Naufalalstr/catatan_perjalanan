@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.border-box {
+    width: 850px;
+    margin-left: 100px;
+}
+body {
+    background: white;
+}
+.container {
+    margin-top: 150px;
+}
+.row {
+    background-color: rgb(233, 233, 233);
+    border-radius: 5%;
+}
+img,
+.login-wrap {
+    width: 400px;
+    height: 500px;
+    justify-items: left;
+}
+.login-wrap {
+    position: relative;
+}
+.form-group {
+    position: relative;
+}
+.text-md-right {
+    text-align: right !important;
+}
+img {
+    margin-left: -10px;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+}
+.pasword:hover {
+    color: black;
+}
